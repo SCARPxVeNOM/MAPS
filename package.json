@@ -1,0 +1,18 @@
+{
+  "name": "massa-subpay",
+  "private": true,
+  "version": "0.1.0",
+  "description": "Massa SubPay: recurring payments (monthly + trial) with ASC scheduling.",
+  "license": "MIT",
+  "scripts": {
+    "build": "tsc -p tsconfig.json",
+    "typecheck": "tsc -p tsconfig.json --noEmit",
+    "lint": "echo 'No linter configured at root'",
+    "test": "node tests/subscription.test.js",
+    "web": "cd web/web && npm run dev"
+  },
+  "devDependencies": {
+    "@types/node": "^24.6.0",
+    "typescript": "^5.5.4"
+  }
+}
